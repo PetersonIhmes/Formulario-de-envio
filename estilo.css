@@ -1,0 +1,76 @@
+body {
+  font-family: Tahoma;
+  background-image: radial-gradient(circle at -11.87% 39.09%, #a49cff 0, #5c6ff2 25%, #0040a0 50%, #001654 75%, #000019 100%);
+  color: #fff;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  border-radius: 15px;
+}
+fieldset {
+  border: 2px solid dodgerblue;
+  border: 2px solid dodgerblue;
+}
+.box legend {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: dodgerblue;
+  border-radius: 20px;
+  padding: 5px;
+}
+.inputbox {
+  position: relative;
+}
+.inputuser {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+.caixatexto {
+  outline: none;
+  padding: 5px;
+  pointer-events: none;
+  font-size: 20px;
+  border: none;
+  
+}
+.label-input {
+  position: absolute;
+  top: 0;
+  left 0;
+  pointer-events: none;
+  transition: .5s;
+}
+.inputuser:focus ~.label-input, .inputuser:valid ~.label-input {
+  top: -20px;
+  font-size: 12px;
+  color: dodgerblue;
+  
+}
+#submit {
+  background-color: dodgerblue;
+  width: 100%;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: -5px;
+  text-transform: uppercase;
+}
+#submit:houver {
+  background-color: #191970;
+}
